@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <nav>Formation KA</nav>
+    <Main>
+        <h5>Git, GitHub et GitHub Pages</h5>
+        
+        <h4>Introduction à Git et GitHub</h4> 
+        
+        <H5>Objectifs d’apprentissage</H5> 
+        <p>- Comprendre les commandes de base de Git et le concept de gestion de version.</p>
+       <p>  - Apprendre les workflows GitHub pour la collaboration.</p>
+       <p> - Déployer des sites statiques avec GitHub Pages.
+
+       </p> 
+       <H5>Pré-requis</H5>
+        <P>- Connaissances de base en HTML.</P>
+        <P>- Notions de base sur le terminal ou ligne de commande.</P>
+        <P> - Visual Studio Code est installé.</P>
+       
+        <h5>Git : Qu’est-ce que c’est et pourquoi l’utiliser ?</h5>
+        
+        
+         <p> - Suivi des modifications du code.</p>
+            <P>- Collaboration entre développeurs.</P>
+            <P>            - Facilité à revenir à une version précédente en cas d’erreurs.</P>
+
+        
+       <H5> GitHub :</H5>
+        <P>Qu’est-ce que c’est et pourquoi l’utiliser ?</P>
+        
+       <P> GitHub est une plateforme pour héberger et gérer des dépôts Git.
+    </P>
+        <H4>Fonctionnalités principales</H4>
+        
+         <P> - Hébergement centralisé des dépôts.</P>
+         <P> - Outils de collaboration : Pull requests, revue de code, gestion des issues.</P>
+         <P> - Hébergement gratuit pour sites statiques via GitHub Pages.</P>
+         
+         
+        
+       <H4>Workflow Git et GitHub :</H4> 
+       <H5>Schéma du workflow :</H5>  
+        <img src="" alt="img">
+        
+        <P>Mise en place de l’environnement</P>
+        <h5>Installation de Git</h5> 
+        <ol>
+            <li>Téléchargez Git à partir de <a href="[https://git-scm.com]">[https://git-scm.com]</a>.</li>
+            <li> Suivez les instructions d’installation :
+                - [Installation sur Windows, Mac et Linux] <a href="(https://www.simplilearn.com/tutorials/git-tutorial/git-installation-on-windows).">(https://www.simplilearn.com/tutorials/git-tutorial/git-installation-on-windows)</a></li>
+            <li> Vérifiez l’installation :
+                git --version
+            </li>
+        </ol>
+
+         
+        
+        <H4>Création d’un compte GitHub</H4>
+        <ol>
+            <li>Accédez à github.com.</li>
+            <li>Cliquez sur Sign up.</li>
+            <li>Remplissez les champs requis (e-mail, mot de passe, nom d’utilisateur).</li>
+           <Li>Confirmez votre adresse e-mail.</Li>
+        </ol>
+        
+        <h4>Configuration de Git avec GitHub</h4>
+        
+        <ol>
+            <li>Configurez les informations utilisateur :</li>
+        </ol>
+          
+        <p>git config --global user.name "Votre Nom"</p> 
+        <p> git config --global user.email "votre.email@example.com"</p>
+           
+        
+        <h4>Outils recommandés </h4>
+        
+        <p>IDE : Visual Studio Code (déjà installé).</p>
+        
+        <h5>Commandes Git de base</h5>
+        
+        <h6>Initialisation d’un dépôt Git</h6>
+        <ol>
+            <li> Commande :
+                git init</li>
+            <li>Exemple pratique : Initialiser un dépôt dans un dossier projet.
+                Staging et commit des modifications
+            </li>
+            <li>Staging :
+                git add .</li>
+            <li> Commit :
+                git commit -m "Votre message"</li>
+            <li>Analogie : Le staging prépare les modifications, le commit les sauvegarder.
+                Branching et fusion
+            </li>
+            <li>Créer une branche :
+                git branch feature-branch</li>
+            <li>Basculer sur une branche :
+                git checkout feature-branch
+              </li>
+            <li> Fusionner les branches :
+                git merge feature-branch
+                Push et pull</li>
+            <li>Envoyer des modifications sur GitHub :
+                git push origin main</li>
+            <li>Récupérer des modifications de GitHub :
+                git pull origin main</li>
+        </ol>
+        <H4>Création d’un dépôt sur GitHub</H4>
+        
+        <H5>Nouveau dépôt</H5>
+        
+        <ol>
+        <li>Sur GitHub, cliquez sur New Repository.</li>
+        <li>Remplissez les options : Nom, description, public/privé, README.
+            Connecter un dépôt local à GitHub
+        </li>
+        <li>Commandes :
+            git remote add origin <a href="https://github.com/utilisateur/repository.git">https://github.com/utilisateur/repository.git</a>
+            git push -u origin main
+  </li>
+        <li> Cloner un dépôt existant
+        
+            - Exemple :
+              git clone <a href="https://github.com/utilisateur/repository.git">https://github.com/utilisateur/repository.git</a></li>
+        <li> Création d’un site statique simple
+        
+            Préparation HTML/CSS
+            
+            - Exemple : `index.html` :</li>
+    </ol>
+        </Main>
+        <footer>ka formation</footer>
+</body>
+</html>
